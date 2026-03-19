@@ -1,0 +1,79 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMTdM/LvLuPYe59orarS125",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Aleefs-dev/GERENCIAMENTO-ESCOLAR-C/blob/main/Sistema_de_login_Alfa_coldres(py)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "NA8bLUhc4qvD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S4HN1hb44F1e"
+      },
+      "outputs": [],
+      "source": [
+        "print(\"ALFA COLDRES\")\n",
+        "print(\"Olá, bem-vindo\")\n",
+        "\n",
+        "cadastro = input(\"Você já tem conta na ALFA COLDRES? (sim/não): \")\n",
+        "\n",
+        "if cadastro == \"sim\":\n",
+        "    login = input(\"Digite seu login: \")\n",
+        "    senha = input(\"Digite sua senha: \")\n",
+        "\n",
+        "    if login == \"vai\" and senha == \"vem\":\n",
+        "        print(\"Acesso permitido\")\n",
+        "        print(\"Bem-vindo de volta!\")\n",
+        "    else:\n",
+        "        print(\"Login ou senha incorretos!\")\n",
+        "\n",
+        "elif cadastro == \"nao\":\n",
+        "    deseja = input(\"Você deseja se cadastrar? (sim/não): \")\n",
+        "\n",
+        "    if deseja == \"sim\":\n",
+        "        nome = input(\"Digite seu nome e sobrenome: \")\n",
+        "        telefone = input(\"Digite seu número de telefone: \")\n",
+        "        email = input(\"Digite seu email: \")\n",
+        "        senha = input(\"Crie uma senha: \")\n",
+        "        confirmar_senha = input(\"Confirme a senha: \")\n",
+        "\n",
+        "        if senha == confirmar_senha:\n",
+        "            print(\"Cadastro realizado com sucesso!\")\n",
+        "        else:\n",
+        "            print(\"As senhas não coincidem!\")\n",
+        "\n",
+        "    else:\n",
+        "        print(\"Tudo bem! Até a próxima.\")"
+      ]
+    }
+  ]
+}
